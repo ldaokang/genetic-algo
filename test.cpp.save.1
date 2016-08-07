@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+#include <cstdlib> //for rand() and srand()
+#include <ctime> //for time()
+
+using namespace std;
+
+int main(){
+	srand(time(0));	
+	long double rdm = (rand() % 100)/100;
+	cout << rdm << endl;
+
+return 0;
+}

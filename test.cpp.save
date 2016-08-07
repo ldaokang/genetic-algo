@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+	cout<< "This is a test for strings" << endl;
+	string x = "10101010";
+	string y = "10101010";
+	cout << x[0] << endl;
+	cout << y[0] << endl;
+	if (x.compare(1,2,y,1,2)==0){
+	cout << "success" << endl;
+	}
+
+
+return 0;
+}
